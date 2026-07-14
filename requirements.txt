@@ -4,3 +4,5 @@ pymysql
 gunicorn
 sqlalchemy
 python-dotenv
+pandas
+numpy
