@@ -14,5 +14,5 @@ COPY . .
 # Expose port 5000
 EXPOSE 5000
 
-# Run the Flask app with gunicorn
+# Run the Flask app with gunicorn - POINTING TO api_server.py
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "api_server:app"]
