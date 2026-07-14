@@ -1,0 +1,198 @@
+/* ========= RESET ========= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+body{
+    background:#eef2f7;
+}
+
+/* ========= SIDEBAR ========= */
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:240px;
+    height:100vh;
+    background:#0f766e;
+    overflow:auto;
+}
+
+.logo{
+    padding:25px;
+    text-align:center;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li a{
+    display:block;
+    color:white;
+    padding:15px 25px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active{
+    background:#115e59;
+    padding-left:35px;
+}
+
+/* ========= MAIN ========= */
+
+.main{
+    margin-left:240px;
+    min-height:100vh;
+}
+
+/* ========= TOP BAR ========= */
+
+.topbar{
+
+    background:white;
+
+    padding:20px 30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.topbar h2{
+    color:#0f766e;
+}
+
+.user{
+    font-weight:bold;
+    color:#444;
+}
+
+/* ========= CONTENT ========= */
+
+.content{
+    padding:30px;
+}
+
+/* ========= CARDS ========= */
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:20px;
+
+margin-bottom:30px;
+
+}
+
+.card{
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+.card h3{
+
+color:#777;
+
+margin-bottom:10px;
+
+}
+
+.card h2{
+
+font-size:30px;
+
+color:#0f766e;
+
+}
+
+/* ========= TABLE ========= */
+
+.table-box{
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+th{
+
+background:#0f766e;
+
+color:white;
+
+padding:12px;
+
+}
+
+td{
+
+padding:12px;
+
+border-bottom:1px solid #ddd;
+
+}
+
+/* ========= BUTTONS ========= */
+
+.btn{
+
+padding:10px 16px;
+
+border:none;
+
+border-radius:6px;
+
+cursor:pointer;
+
+text-decoration:none;
+
+display:inline-block;
+
+color:white;
+
+}
+
+.green{background:#16a34a;}
+.blue{background:#2563eb;}
+.orange{background:#d97706;}
+.red{background:#dc2626;}
+.teal{background:#0f766e;}

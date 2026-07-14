@@ -1,5 +1,7 @@
 <?php
 require_once 'RiskPredictor.php';
+$pageTitle = "Early Warning";
+include 'includes/header.php';
 $predictor = new RiskPredictor();
 
 $predictions    = $predictor->getPredictions();
@@ -377,5 +379,4 @@ $mediumCount = count($mediumRisk);
         }
     }
 </script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

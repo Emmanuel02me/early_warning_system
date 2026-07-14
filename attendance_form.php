@@ -1,5 +1,7 @@
 <?php
 require_once 'config.php';
+$pageTitle = "Attendance Management";
+include 'includes/header.php';
 $db = getDBConnection();
 
 // FIX: Added ORDER BY class_id, full_name explicitly and added a class
@@ -139,5 +141,4 @@ $alreadySubmitted = $dupCheck->fetchColumn() > 0;
         </button>
     </form>
 </div>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
