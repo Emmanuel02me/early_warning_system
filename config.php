@@ -6,7 +6,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // Python API configuration
-define('ML_API_URL', 'http://127.0.0.1:5000/api/predict');
+define('ML_API_URL', 'https://early-warning-system-mpxj.onrender.com/api/predict');
 define('ML_TRAIN_URL', 'http://127.0.0.1:5000/api/train');
 // System settings
 define('SCHOOL_NAME', 'Mbeya Secondary School');
