@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
 $pageTitle = "Attendance Management";
-include 'includes/header.php';
+include 'header.php';
 $db = getDBConnection();
 
 // FIX: Added ORDER BY class_id, full_name explicitly and added a class
