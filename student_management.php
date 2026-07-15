@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
 $pageTitle = "Student Management";
-include 'header.php';
+include 'includes/header.php';
 
 $db = getDBConnection();
 

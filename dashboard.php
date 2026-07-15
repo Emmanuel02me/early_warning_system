@@ -1,7 +1,7 @@
 <?php
 require_once 'RiskPredictor.php';
 $pageTitle = "Early Warning";
-include 'header.php';
+include 'includes/header.php';
 $predictor = new RiskPredictor();
 
 $predictions    = $predictor->getPredictions();
