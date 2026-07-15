@@ -8,10 +8,11 @@ app = Flask(__name__)
 
 # Database configuration
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',
-    'database': 'school_early_warning'
+    'host': 'sql111.infinityfree.com',
+    'user': 'if0_42416548',
+    'password': 'YOUR_DATABASE_PASSWORD',
+    'database': 'if0_42416548_school_early_warning',
+    'port': 3306
 }
 
 MODEL_PATH = 'student_risk_model.pkl'
