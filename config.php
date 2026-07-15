@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'school_early_warning');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', 'sql111.infinityfree.com');
+define('DB_NAME', 'if0_42416548_school_early_warning');
+define('DB_USER', 'if0_42416548');
+define('DB_PASS', 'BgFksLXT0Y4igX0');
 
 // Python API configuration
 define('ML_API_URL', 'https://early-warning-system-mpxj.onrender.com/api/predict');
